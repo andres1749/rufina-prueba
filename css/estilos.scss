@@ -8,7 +8,8 @@ $colorprin: rgb(242, 77, 104);
 
 /* ------ header mas barra navegacion------ */
 .header {
-    height: 90px;
+    height: 84px;
+    background-color: $colorprin;
 
     .navbar {
         background-color: $colorprin;
@@ -77,6 +78,7 @@ main {
         border-radius: 5px;
 
     }
+
     .titulos--secundarios {
         font-size: 1em;
         background-color: $colorprin;
@@ -101,6 +103,7 @@ main {
         height: 310px;
     }
 }
+
 // video finaliza
 // finaliza main-secciones-video
 
@@ -116,10 +119,20 @@ main {
         text-align: center;
     }
 }
+
 // finaliza footer
 // media query
-@media only screen and (min-width:320px) and (max-width:767px) {
+
+
+
+@media only screen and (min-width:320px) and (max-width:500px) {
     .slide img {
         height: 40vh;
+    }
+}
+
+@media only screen and (min-width:501px) and (max-width:768px) {
+    .slide img {
+        height: 55vh;
     }
 }
